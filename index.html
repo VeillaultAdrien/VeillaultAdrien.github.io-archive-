@@ -90,17 +90,16 @@
 	<script src="VeillaultAdrien.github.io/js/script.js"></script>
 	<script type="text/javascript" src="VeillaultAdrien.github.io/js/javascript.fullPage.min.js"></script>
 		
+		
 		<script type="text/javascript">
-		$(document).ready(function() {
-			$('#fullpage').fullpage({
-				sectionsColor: ['#1bbc9b', '#4BBFC3', '#7BAABE', 'whitesmoke', '#ccddff'],
-				anchors: ['firstPage', 'secondPage', '3rdPage', '4thpage', 'lastPage'],
-				menu: '#hamburger',
-				scrollingSpeed: 1000
-			});
+	fullpage.initialize('#fullpage', {
+		anchors: ['firstPage', 'secondPage', '3rdPage', '4thpage', 'lastPage'],
+		menu: '#hamburger',
+		scrollingSpeed: 1000,
+		css3:true
+	});
 
-		});
-	</script>
+</script>
 
 </script>
 		</body>
