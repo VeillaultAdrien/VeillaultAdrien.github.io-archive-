@@ -16,7 +16,21 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 	</head>
 	<body>
-		<span class="fa fa-bars fa-3x col-md-1 hamburger" aria-hidden="true" onclick="openNav()" id="hamburger"></span>
+		<!--Menu nav-->
+		<nav>
+			<span class="fa fa-bars fa-3x col-md-1 hamburger" aria-hidden="true" onclick="openNav()" id="hamburger"></span>
+			<div id="myNav" class="overlay">
+			  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+			  <div class="overlay-content">
+				<a href="#"><span class="fa fa-home" aria-hidden="true"></span></a>
+				<a href="#">Mes réalisations</a>
+				<a href="#">Mon Curiculum Vitae</a>
+				<a href="#">Me contacter</a>
+			  </div>	
+			</div>
+		</nav>
+	
+		
 		<div id="fullpage">
 	<div class="section " id="section0">
 		<div class="content">
@@ -54,33 +68,6 @@
 		</div>
 	</div>
 </div>
-		<!--<section class="cd-section">
-			<p>test</p>
-			<div class="container-fluid">
-				<div class="col-md-offset-1 col-md-11">
-					<h3>Mes réalisations</h3>
-					<ul class="ul-creation">
-						<li class="li-creation">La totalité</li>
-						<li class="li-creation">Web</li>
-						<li class="li-creation">Graphique</li>
-						<li class="li-creation">Jeux vidéos</li>
-					</ul>
-				</div>
-			</div>
-		</section>-->
-
-		<!--Menu nav-->
-		<div id="myNav" class="overlay">
-		  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-		  <div class="overlay-content">
-			<a href="#"><span class="fa fa-home" aria-hidden="true"></span></a>
-			<a href="#">Mes réalisations</a>
-			<a href="#">Mon Curiculum Vitae</a>
-			<a href="#">Me contacter</a>
-		  </div>	
-		</div>
-		<!--<span class="fa fa-bars fa-3x col-md-1 cd-vertical-hamburger" aria-hidden="true" onclick="openNav()"></span>-->
-	
 
 	<script src="VeillaultAdrien.github.io/js/jquery-3.2.1.min.js"></script>
 	<script src="VeillaultAdrien.github.io/js/bootstrap.min.js"></script>
