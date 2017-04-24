@@ -16,7 +16,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 	</head>
 	<body>
-		<span class="fa fa-bars fa-3x col-md-1 hamburger" aria-hidden="true" onclick="openNav()"></span>
+		<span class="fa fa-bars fa-3x col-md-1" aria-hidden="true" onclick="openNav()" id="hamburger"></span>
 		<div id="fullpage">
 	<div class="section " id="section0">
 		<div class="content">
@@ -95,7 +95,7 @@
 			$('#fullpage').fullpage({
 				sectionsColor: ['#1bbc9b', '#4BBFC3', '#7BAABE', 'whitesmoke', '#ccddff'],
 				anchors: ['firstPage', 'secondPage', '3rdPage', '4thpage', 'lastPage'],
-				menu: '#menu',
+				menu: '#hamburger',
 				scrollingSpeed: 1000
 			});
 
