@@ -50,7 +50,10 @@
 }
 
 
-.list-creation{
-    display: inline;
+.ul-creation{
     list-style-type: none;
+}
+
+.li-creation{
+    display: inline;
 }
