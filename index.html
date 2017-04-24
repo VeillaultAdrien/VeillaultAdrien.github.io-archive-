@@ -1,88 +1,89 @@
 <!DOCTYPE html>
 <html lang="fr">
-	<head>
-		<title>Veillault Adrien, portefolio</title>
-		<!--CSS-->
-		<link rel="stylesheet" href="VeillaultAdrien.github.io/css/reset.css"> <!-- CSS reset -->
-		<link rel="stylesheet" href="VeillaultAdrien.github.io/font-awesome/css/font-awesome.min.css">
-		<link rel="stylesheet" href="VeillaultAdrien.github.io/css/bootstrap.min.css">
-		<link rel="stylesheet" href="VeillaultAdrien.github.io/css/style.css">
-		<link rel="stylesheet" href="VeillaultAdrien.github.io/css/style_scroll.css"> <!-- Resource style -->
-		<!--<script src="js/modernizr.js"></script>--> <!-- Modernizr -->
-		<link rel="stylesheet" type="text/css" href="VeillaultAdrien.github.io/css/javascript.fullPage.css" />
+<head>
+	<title>Veillault Adrien, portefolio</title>
+	<!--CSS-->
+	<link rel="stylesheet" href="VeillaultAdrien.github.io/css/reset.css"> <!-- CSS reset -->
+	<link rel="stylesheet" href="VeillaultAdrien.github.io/font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="VeillaultAdrien.github.io/css/bootstrap.min.css">
+	<link rel="stylesheet" href="VeillaultAdrien.github.io/css/style.css">
+	<!--<link rel="stylesheet" href="VeillaultAdrien.github.io/css/style_scroll.css">--> <!-- Resource style -->
+	<link rel="stylesheet" type="text/css" href="VeillaultAdrien.github.io/css/javascript.fullPage.css" />
 
-		<!--Meta-->
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-	</head>
-	<body>
-		<!--Menu nav-->
-		<nav>
-			<span class="fa fa-bars fa-3x col-md-1 hamburger" aria-hidden="true" onclick="openNav()" id="hamburger"></span>
-			<div id="myNav" class="overlay">
-			  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-			  <div class="overlay-content">
+	<!--Meta-->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+	<!---------Menu nav------------->
+	<nav>
+		<span class="fa fa-bars fa-3x col-md-1 hamburger" aria-hidden="true" onclick="openNav()" id="hamburger"></span>
+		<div id="myNav" class="overlay">
+			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+			<div class="overlay-content">
 				<a href="#"><span class="fa fa-home" aria-hidden="true"></span></a>
 				<a href="#">Mes réalisations</a>
 				<a href="#">Mon Curiculum Vitae</a>
 				<a href="#">Me contacter</a>
-			  </div>	
-			</div>
-		</nav>
+			</div>	
+		</div>
+	</nav>
 	
-		
-		<div id="fullpage">
-	<div class="section " id="section0">
-		<div class="content">
-			<h1>fullPage.js</h1>
-			<p>Javascript only version</p>
-		</div>
-	</div>
-	<div class="section" id="section1">
-		<div class="slide" id="slide1">
+	<!---------Page----------------->
+	<div id="fullpage">
+		<!---------Zone0----------------->
+		<div class="section " id="section0">
 			<div class="content">
-				<h1>No need for jQuery</h1>
-				<p>
+				<h1>fullPage.js</h1>
+				<p>Javascript only version</p>
+			</div>
+		</div>
+		<!---------Zone1----------------->
+		<div class="section" id="section1">
+			<div class="slide" id="slide1">
+				<div class="content">
+					<h1>No need for jQuery</h1>
+					<p>
 					5 Kb gzipped!!
-				</p>
-				<p>
-		      		Improve the loading time of your site!
-				</p>
+					</p>
+					<p>
+					Improve the loading time of your site!
+					</p>
+				</div>
+			</div>
+			<div class="slide" id="slide2">
+				<div class="content">
+					<h1>Slides too!</h1>
+				</div>
+			</div>
+			<div class="slide" id="slide2">
+				<div class="content">
+					<h1>More slides!</h1>
+				</div>
 			</div>
 		</div>
-		<div class="slide" id="slide2">
+		<!---------Zone2----------------->
+		<div class="section" id="section2">
 			<div class="content">
-				<h1>Slides too!</h1>
-			</div>
-		</div>
-		<div class="slide" id="slide2">
-			<div class="content">
-				<h1>More slides!</h1>
+				<h1>Compatible</h1>
+				<p>IE 8+ support.</p>
 			</div>
 		</div>
 	</div>
-	<div class="section" id="section2">
-		<div class="content">
-			<h1>Compatible</h1>
-			<p>IE 8+ support.</p>
-		</div>
-	</div>
-</div>
 
-	<script src="VeillaultAdrien.github.io/js/jquery-3.2.1.min.js"></script>
-	<script src="VeillaultAdrien.github.io/js/bootstrap.min.js"></script>
-	<script src="VeillaultAdrien.github.io/js/velocity.min.js"></script>
-	<script src="VeillaultAdrien.github.io/js/velocity.ui.min.js"></script>
-	<script src="VeillaultAdrien.github.io/js/main.js"></script>
-	<script src="VeillaultAdrien.github.io/js/script.js"></script>
-	<script type="text/javascript" src="VeillaultAdrien.github.io/js/javascript.fullPage.min.js"></script>
-	<script type="text/javascript">
-	fullpage.initialize('#fullpage', {
-		anchors: ['firstPage', 'secondPage', '3rdPage', '4thpage', 'lastPage'],
-		menu: '#hamburger',
-		css3:true
-	});
-
+<script src="VeillaultAdrien.github.io/js/jquery-3.2.1.min.js"></script>
+<script src="VeillaultAdrien.github.io/js/bootstrap.min.js"></script>
+<script src="VeillaultAdrien.github.io/js/velocity.min.js"></script>
+<script src="VeillaultAdrien.github.io/js/velocity.ui.min.js"></script>
+<script src="VeillaultAdrien.github.io/js/main.js"></script>
+<script src="VeillaultAdrien.github.io/js/script.js"></script>
+<script type="text/javascript" src="VeillaultAdrien.github.io/js/javascript.fullPage.min.js"></script>
+<script type="text/javascript">
+fullpage.initialize('#fullpage', {
+	anchors: ['firstPage', 'secondPage', '3rdPage', '4thpage', 'lastPage'],
+	menu: '#hamburger',
+	css3:true
+});
 </script>
-		</body>
+</body>
 </html>
