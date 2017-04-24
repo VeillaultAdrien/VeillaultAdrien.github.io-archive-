@@ -48,3 +48,9 @@
     right: 35px;
   }
 }
+
+
+.list-creation{
+    display: inline;
+    list-style-type: none;
+}
