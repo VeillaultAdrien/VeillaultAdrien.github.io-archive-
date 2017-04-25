@@ -6,7 +6,7 @@
 	<!--<link rel="stylesheet" href="VeillaultAdrien.github.io/css/reset.css">--> <!-- CSS reset -->
 	<link rel="stylesheet" href="VeillaultAdrien.github.io/font-awesome/css/font-awesome.min.css">
 	<!--<link rel="stylesheet" href="VeillaultAdrien.github.io/css/bootstrap.min.css">-->
-	<link rel="stylesheet" type="text/css" href="VeillaultAdrien.github.io/css/javascript.fullPage.css" />
+	<link rel="stylesheet" type="text/css" href="VeillaultAdrien.github.io/css/jquery.fullPage.css" />
 	<link rel="stylesheet" href="VeillaultAdrien.github.io/css/style.css">
 	<!--<link rel="stylesheet" href="VeillaultAdrien.github.io/css/style_scroll.css">--> <!-- Resource style -->
 
@@ -75,14 +75,18 @@
 <script src="VeillaultAdrien.github.io/js/velocity.min.js"></script>
 <script src="VeillaultAdrien.github.io/js/velocity.ui.min.js"></script>
 <script src="VeillaultAdrien.github.io/js/main.js"></script>-->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <script src="VeillaultAdrien.github.io/js/script.js"></script>
 <script type="text/javascript" src="VeillaultAdrien.github.io/js/jquery.fullPage.min.js"></script>
 <script type="text/javascript">
-fullpage.initialize('#fullpage', {
+$(document).ready(function() {
+	$('#fullpage').fullpage({
 	anchors: ['firstPage', 'secondPage', '3rdPage', '4thpage', 'lastPage'],
 	menu: '#hamburger',
-	css3: true
-});
+	css3: true,
+	keyboardScrolling: true
+})
+};
 </script>
 </body>
 </html>
