@@ -6,20 +6,20 @@
 	<!--<link rel="stylesheet" href="VeillaultAdrien.github.io/css/reset.css">--> <!-- CSS reset -->
 	<link rel="stylesheet" href="VeillaultAdrien.github.io/font-awesome/css/font-awesome.min.css">
 	<!--<link rel="stylesheet" href="VeillaultAdrien.github.io/css/bootstrap.min.css">-->
-	<link rel="stylesheet" type="text/css" href="VeillaultAdrien.github.io/css/jquery.fullPage.css" />
 	<link rel="stylesheet" href="VeillaultAdrien.github.io/css/style.css">
 	<!--<link rel="stylesheet" href="VeillaultAdrien.github.io/css/style_scroll.css">--> <!-- Resource style -->
+	<link rel="stylesheet" type="text/css" href="VeillaultAdrien.github.io/css/javascript.fullPage.css" />
 
 	<!--Meta-->
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>	
-	<!--   Page          -->
-	<span class="fa fa-bars fa-3x col-md-1 hamburger" aria-hidden="true" onclick="openNav()" id="hamburger"></span>
+	<!---------Page----------------->
 	<div id="fullpage">
-		<!--       Menu nav      -->
-		<nav>
+		<!---------Menu nav------------->
+	<nav>
+		<span class="fa fa-bars fa-3x col-md-1 hamburger" aria-hidden="true" onclick="openNav()" id="hamburger"></span>
 		<div id="myNav" class="overlay">
 			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
 			<div class="overlay-content">
@@ -29,15 +29,15 @@
 				<a href="#">Me contacter</a>
 			</div>	
 		</div>
-		</nav>
-		<!--    Zone0   -->
+	</nav>
+		<!---------Zone0----------------->
 		<div class="section " id="section0">
 			<div class="content">
 				<h1>fullPage.js</h1>
 				<p>Javascript only version</p>
 			</div>
 		</div>
-		<!--     Zone1    -->
+		<!---------Zone1----------------->
 		<div class="section" id="section1">
 			<div class="slide" id="slide1">
 				<div class="content">
@@ -61,7 +61,7 @@
 				</div>
 			</div>
 		</div>
-		<!--   Zone2  -->
+		<!---------Zone2----------------->
 		<div class="section" id="section2">
 			<div class="content">
 				<h1>Compatible</h1>
@@ -69,24 +69,19 @@
 			</div>
 		</div>
 	</div>
-
-<!--<script src="VeillaultAdrien.github.io/js/jquery-3.2.1.min.js"></script>
+<script src="VeillaultAdrien.github.io/js/jquery-3.2.1.min.js"></script>
 <script src="VeillaultAdrien.github.io/js/bootstrap.min.js"></script>
 <script src="VeillaultAdrien.github.io/js/velocity.min.js"></script>
 <script src="VeillaultAdrien.github.io/js/velocity.ui.min.js"></script>
-<script src="VeillaultAdrien.github.io/js/main.js"></script>-->
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
-<!--<script src="VeillaultAdrien.github.io/js/script.js"></script>-->
-<script type="text/javascript" src="VeillaultAdrien.github.io/js/jquery.fullPage.min.js"></script>
+<script src="VeillaultAdrien.github.io/js/main.js"></script>
+<script src="VeillaultAdrien.github.io/js/script.js"></script>
+<script type="text/javascript" src="VeillaultAdrien.github.io/js/javascript.fullPage.min.js"></script>
 <script type="text/javascript">
-$(document).ready(function() {
-	$('#fullpage').fullpage({
+fullpage.initialize('#fullpage', {
 	anchors: ['firstPage', 'secondPage', '3rdPage', '4thpage', 'lastPage'],
 	menu: '#hamburger',
-	css3: true,
-})
-};
+	css3:true
+});
 </script>
 </body>
 </html>
