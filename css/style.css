@@ -87,9 +87,10 @@ h1{
 }
 
 .titre1{
-	width:1px;
-	height:100px;
+	margin: 0 auto;
+	width:30%px;
+	height:1%;
 	border:1px solid #069;
 	border-color:transparent transparent transparent #069;
-	border-width:100px;
+	border-width:2%;
 }
