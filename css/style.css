@@ -88,8 +88,8 @@ h1{
 
 .titre1{
 	width:1px;
-	height:1px;
+	height:100px;
 	border:1px solid #069;
-	border-color:transparent transparent #069 transparent;
+	border-color:transparent transparent transparent #069;
 	border-width:100px;
 }
