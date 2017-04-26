@@ -85,3 +85,11 @@ h1{
 	background-color: #A9E0E3;
 	color: #3D7681;
 }
+
+.titre1{
+	width:1px;
+	height:1px;
+	border:1px solid #069;
+	border-color:transparent transparent #069 transparent;
+	border-width:100px;
+}
