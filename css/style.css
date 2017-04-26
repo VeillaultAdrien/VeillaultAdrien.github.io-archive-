@@ -64,6 +64,7 @@
 	z-index: 70;
 	padding: 0px;
 	margin: 0px;
+	color: #DCF6F7;
 }
 
 h1{
@@ -72,5 +73,10 @@ h1{
 
 #section0{
 	background-color: #3D7681;
-	color: white;
+	color: #DCF6F7;
+}
+
+#section1{
+	background-color: #79BFB5;
+	color: #DCF6F7;;
 }
