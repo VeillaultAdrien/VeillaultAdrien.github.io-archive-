@@ -86,11 +86,8 @@ h1{
 	color: #3D7681;
 }
 
-.titre1{
-	/*margin: 0 auto;*/
-	width:30%;
-	height:1%;
-	border:1px solid #069;
-	border-color:transparent transparent transparent #069;
-	border-width:2%;
+.hexa{
+	margin: 0 auto;
+	width: 50%;
+	
 }
