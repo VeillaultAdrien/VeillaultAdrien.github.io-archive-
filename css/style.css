@@ -94,7 +94,11 @@ h1{
 }
 
 .titre{
+	display: block;
 	background-image: url("../img/hexa.svg");
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-size: 100%;
 	margin: 0 auto;
 	text-align: center;
 }
