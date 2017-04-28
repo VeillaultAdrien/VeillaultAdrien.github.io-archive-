@@ -87,7 +87,6 @@ h1{
 }
 
 .hexa{
-	/*position: relative;*/
 	margin: 0 auto;
 	width: 40%;
 	color : #4366B4;
@@ -106,6 +105,6 @@ h1{
 }
 
 .coxy{
-	position: relative;
-	margin: 5%;
+	height: 80%;
+	margin: 10%;
 }
