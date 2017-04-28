@@ -94,8 +94,9 @@ h1{
 }
 
 .titre{
-	position: relative;
+	display: block;
+	width: 40%;
+	background-image: url('VeillaultAdrien.github.io/img/hexa.svg');
 	margin: 0 auto;
 	text-align: center;
-	top: 0;
 }
