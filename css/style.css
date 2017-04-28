@@ -87,8 +87,13 @@ h1{
 }
 
 .hexa{
-	position: relative;
+	/*position: relative;*/
 	margin: 0 auto;
 	width: 40%;
 	color : #4366B4;
+}
+
+.titre{
+	position: relative;
+	margin: 0 auto;
 }
