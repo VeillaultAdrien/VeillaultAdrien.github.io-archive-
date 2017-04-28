@@ -105,8 +105,10 @@ h1{
 }
 
 .coxy{
+	display: block;
 	background-image: url("../img/veillault_adrien_coxyday.png");
 	background-repeat: no-repeat;
 	background-position: top center;
 	background-size: 100%;
+	width: 100%;
 }
