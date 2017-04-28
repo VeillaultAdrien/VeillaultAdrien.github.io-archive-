@@ -107,3 +107,10 @@ h1{
 .coxy{
 	padding-top: 20%;
 }
+
+.float{
+	float: left;
+}
+.clear{
+	clear: all;
+}
