@@ -87,8 +87,7 @@ h1{
 }
 
 .hexa{
-	position: absolute;
+	position: relative;
 	margin: 0 auto;
 	width: 40%;
-	top: 0;
 }
