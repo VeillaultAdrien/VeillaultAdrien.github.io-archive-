@@ -96,4 +96,6 @@ h1{
 .titre{
 	position: relative;
 	margin: 0 auto;
+	text-align: center;
+	top: 0;
 }
