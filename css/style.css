@@ -56,7 +56,7 @@
 	text-align: center;
 }
 
-#hamburger{
+.hamburger{
 	position: fixed;
 	top: 0px;
 	left: 0px;
